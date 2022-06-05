@@ -1,0 +1,456 @@
+*{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+html,body{
+        width: 100%;
+        height: 100%;
+}
+#main
+{
+        position: relative;
+        width:100;
+        height: 130vh;
+        background-color: rgb(239, 231, 221);
+        border: 20px solid white;
+        overflow: hidden;
+        
+}
+#navtop
+{
+      display: flex; 
+        width: 100%;
+        height: 15vh;
+        /* background-color: green; */
+        justify-content: center;
+        align-items: center;
+        
+}
+#menu
+{
+        display: flex;
+        width: 50%;
+        height: 5vh ;
+        /* background-color: black; */
+        justify-content: space-evenly;
+        align-items: center;
+        transform: translate(-5%,0%);
+        font-family: "gilroy";
+        font-weight: 600;
+}
+input {
+  border:  none;
+  background-color: rgb(255, 255, 255);
+  font-size: 17px;
+  
+}
+
+
+#menu a
+{
+        color: rgba(27, 25, 25, 0.739);
+        font-size: 20px;  
+        text-decoration:none ;     
+}
+#menu a:hover
+{
+color:black;
+
+}
+#searchbox
+{
+        display: flex;
+        width: 15%;
+        height: 5vh;
+        background-color: white;
+        border-radius: 40px;   
+        align-items: center;
+        justify-content: space-evenly;
+            
+}
+#searchbox i
+{
+        font-size: 25px;
+        color: black;
+        font-weight: 900;
+}
+#bag
+{
+   font-size: 30px;    
+   transform: translate(300%,0%);
+}
+#navtop img
+{
+        transform: translate(-120%,3%);
+}
+#navtop h1
+{
+        transform: translate(-80%,0%);
+        font-family: "orange juice";
+        color: transparent;
+        letter-spacing: 3px;
+        -webkit-background-clip: text;
+        background-image: url(https://images.unsplash.com/photo-1503773222577-b171024da4b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHJlZCUyMGhvdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+        background-size: cover;
+        background-position: center;
+}
+#m1
+{
+        display: flex;
+        width: 100%;
+        height: 110vh;
+        /* background-color: green; */
+        justify-content: space-between;
+}
+#circle1
+{
+        width: 450px;
+        height:450px;
+        
+        background-color: rgb(248, 137, 101);
+        border-radius: 50%;
+        transform: translate(0%,30%);
+        background-image: url(https://thumbs.dreamstime.com/z/vector-seamless-background-orange-donut-glaze-decorative-bright-sprinkles-texture-pattern-design-art-133435342.jpg);
+      
+       
+        background-size: cover;
+         background-position: top;
+}
+#circle1 .cup
+{
+        position: absolute;
+        transform: translate(38%,-15%);
+        z-index: 5;
+}
+#circle1 .beans
+{
+  
+   transform: translate(20%,20%);
+}
+#text
+{
+        width: fit-content;
+        height: fit-content;
+        /* background-color: aqua; */
+        transform: translate(13%,20%);
+        font-family: "gilroy";
+}
+#text h1
+{
+        font-size: 90px;
+        
+}
+#text p
+{
+        font-size: 25px;
+        color: rgba(0, 0, 0, 0.849);
+}
+#text h2
+{
+        font-size: 50px;
+}
+
+#rightbox
+{ 
+       display: flex; 
+       flex-direction: column;
+        width: 20%;
+        height: 30%;
+        /* background-color:black; */
+        justify-content: space-between;
+        transform: translate(-30%,40%);        
+        
+}
+#rb1
+{
+        display: flex;
+        width: 100%;
+        height: 29%;
+        /* background-color: pink; */
+        
+        
+}
+#rb2
+{
+        display: flex;
+        width: 100%;
+        height: 27%;
+        /* background-color: pink; */
+        
+}
+#rb3
+{
+        display: flex;
+        width: 100%;
+        height: 28%;
+        /* background-color: pink; */
+        
+}
+.c1
+{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmmmsPJmJdpFoAn3ITeXo5jVyhaGj3Xri7aq9LbaaC-Ku1bt7iXY7SwhfAIQsmPuztehc&usqp=CAU);
+        background-position: center ;
+        border: 2px dotted  rgb(0, 0, 0) ;
+        background-size: cover;
+}
+.c2
+{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVHuRQvfydUlT4B9Z83j2XmMwusVVd4ns7A&usqp=CAU);
+        background-position: center;
+        background-size: cover;
+         border: 2px dotted  rgb(0, 0, 0) ;
+}
+.c3
+{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtnvCxoM_QMKqimoMcKPqlDjKICANz_hJ8vn41AS6P45u8xx0bSsXKuFdDXMN333RiCQ&usqp=CAU);
+        background-position: center;
+        background-size: cover;
+         border: 2px dotted  rgb(0, 0, 0) ;
+}
+.tt
+{
+        transform: translate(-50%,50%);
+      
+        color: rgba(0, 0, 0, 0.623);
+        font-family: "gilroy";
+}
+#rb1 .tt{
+        transform: translate(-75%,50%);
+        font-size:15px ;
+}
+.th
+{
+        transform: translate(30%,0%);
+        font-family: "gilroy";
+        font-size: 29px;
+}
+#rb2 .th
+{
+        transform: translate(50%,0%);
+}
+#rb2 .tt
+{
+        transform: translate(-24%,50%);
+}
+#rb3 .th
+{
+        transform: translate(40%,0%);
+}
+#rb3 .tt
+{
+        transform: translate(-50%,50%);
+}
+#box1
+{
+        display: flex;
+        position: absolute;
+        width: 23%;
+        height: 100px;
+        background-color:rgba(49, 25, 32, 0.753);
+        border-radius: 100px;
+        transform: translate(138%,450%);
+        justify-content: space-evenly;
+        align-items: center;
+        
+}
+#c1
+{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255) ; 
+         background-color: #008000;
+         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGeSS6tdYW9Y997g-9ruZaom4W8PV52q2v-K8-vwpTj3EwkatdvdQ0OHNh6zNrI7Zc-QE&usqp=CAU);
+         background-size: cover;
+         background-position: center;
+}
+#c2
+{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255) ; 
+         background-color: green;
+         background-image: url(https://t4.ftcdn.net/jpg/02/70/84/81/360_F_270848106_CT9VgF5uNEi72dqGkBajfvvdCYQFL7EO.jpg);
+         background-size: cover;
+         background-position: center;
+}
+#c3
+{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255) ; 
+         background-color: green;
+         background-image: url(https://media.istockphoto.com/photos/young-woman-holding-a-champagne-flute-picture-id882405764?k=20&m=882405764&s=612x612&w=0&h=yhOcIdNHaVWtqba1qw2Hjhz2osxwBHbtmwSiJAnOUX0=);
+         background-size: cover;
+         background-position: center;
+}
+#c4
+{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255) ; 
+         background-color: green;
+          background-image: url(https://thumbs.dreamstime.com/b/black-man-pointing-finger-up-having-idea-over-blue-background-i-have-great-idea-excited-black-millennial-man-pointing-finger-up-220844434.jpg);
+         background-size: cover;
+         background-position: center;
+}
+#c5
+{
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        border: 3px solid rgb(255, 255, 255) ; 
+         background-color: green;
+         background-image: url(https://media.istockphoto.com/photos/yong-lady-in-stylish-jacket-posing-picture-id820912252?k=20&m=820912252&s=612x612&w=0&h=BowfbgFZMIFS39tYJxFGprnf7qDu6I-Xo2nwiOUjpIs=);
+         background-size: cover;
+}
+#box2
+{
+        display: flex;
+        position: absolute;
+        width: 10%;
+        height: 80px;
+        background-color: rgb(36, 39, 58);
+        border-radius: 50px;
+        transform: translate(50%,980%);
+        box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.664);
+        justify-content: space-evenly;
+        align-items: center;
+      
+       
+}
+
+#ci1
+{
+        display: flex;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: darkorange;
+        align-items: center;
+        justify-content: center;
+}
+#box2 h2
+{
+        font-family: "gilroy";
+        color: white;
+}
+#ci1 h1
+{
+        font-size: 25px;
+        font-family: "gilroy";
+        font-weight: bolder;
+}
+#m2
+{
+      
+        width: 60%;
+        height: 40vh;
+        background-color: rgb(22, 24, 36);
+        transform: translate(35%,-60%);
+        border-radius:  54% 10% 0% 0%  /  54% 5% 0% 0% ;
+       
+}
+#m2t
+{
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        justify-content: space-evenly;
+        
+}
+#cb1
+{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: black;
+         transform: translate(0%,-30% );
+        background-image: url(https://t4.ftcdn.net/jpg/02/62/37/47/240_F_262374737_Qhgx6yeEu7EJVFAphCV2pdYdbxnmnCo4.jpg);
+         background-size: cover;
+        
+       
+}
+#cb1 img
+{
+        transform: translate(-17%,-35%);
+}
+#cb2
+{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: black;
+         transform: translate(0%,-50% );
+         background-image: url(seamless-pattern-with-colorful-sprinkles-2211670.jpg);
+         background-size: cover;
+}
+#cb2 img
+{
+        transform: translate(10%,-18%);
+}
+#cb3
+{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: rgb(0, 0, 0);
+         transform: translate(0%,-50% );
+         background-image: url(seamless-pattern-with-colorful-sprinkles-2211669.jpg);
+         background-size: cover;
+}
+#cb3 img
+{
+        transform: translate(-13%,-25%);
+}
+#main .bn
+{
+        position: absolute;
+        right: -1%;
+        bottom: 30%;
+        
+}
+#main .bm
+{
+        position: absolute;
+        left: 10.5%;
+        top: 15%;
+        
+}
+#m2b
+{
+        display: flex;
+        width: 100%;
+        height: 25vh;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        color: rgb(255, 255, 255);
+        font-family: "gilroy";
+
+}
+#m2b span
+{
+        position: absolute;
+        color: rgba(255, 255, 255, 0.596);
+        font-size: 15px;
+       
+
+}
+@media
